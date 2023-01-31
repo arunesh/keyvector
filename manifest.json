@@ -24,5 +24,13 @@
       "128": "images/icon-128.png"
     }
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://n2yo.com/*"
+      ]
+    }
+  ]
 }
