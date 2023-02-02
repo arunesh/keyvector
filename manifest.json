@@ -27,9 +27,10 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "js": ["scripts/content.js"],
+      "js": ["scripts/content.js",
+      "scripts/jquery-3.6.3.js"],
       "matches": [
-        "https://n2yo.com/*"
+        "https://www.n2yo.com/*"
       ]
     }
   ]
